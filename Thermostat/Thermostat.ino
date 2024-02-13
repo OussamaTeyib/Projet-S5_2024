@@ -13,7 +13,7 @@ float B = 0.00000263;
 float C = 0.000000001;
 
 bool pompeEtat =true;
-float temperatureMesuree;
+int temperatureMesuree;
 
 void setup() {
   pinMode(relaisPin, OUTPUT);
@@ -25,11 +25,13 @@ void setup() {
 void loop() {
   float resistance = Rref * (1023.0 / analogRead(capteurPin) - 1.0);
   temperatureMesuree = 1.0 / (A + B * log(resistance) + C * pow(log(resistance), 2));
-  temperatureMesuree = (temperatureMesuree - 100.15) / 100 + 5; 
+  temperatureMesuree = (temperatureMesuree - 100.15) / 100 + 10; 
+  temperatureMesuree = temperatureMesuree + 10; 
+
   lcd.home();
   lcd.print("Temp: ");
   lcd.print(temperatureMesuree);
-
+   lcd.print("  c");
   if (temperatureMesuree < temperatureMin) {
     // Température inférieure au minimum, activation du relai et de la pompe
     digitalWrite(relaisPin, HIGH);
