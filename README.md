@@ -1,4 +1,4 @@
-## Projet S5: Applucation sur l'Arduino
+## Projet S5: Application sur l'Arduino
 Ce projet vise à créer un système de contrôle intelligent en utilisant une carte Arduino pour surveiller et réguler les conditions environnementales.
 
 ### Description:
