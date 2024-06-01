@@ -8,8 +8,8 @@ Il intègre deux composants principaux:
 
 ### Contributeurs:
 - [Oussama Teyib](https://github.com/OussamaTeyib)
-- [Béchir Sidiya](https://github.com/bechirsidiya)
-- Sékina Fall
+- [El Bechir Sidiya](https://github.com/bechirsidiya)
+- Sekina Fall
 
 ### Licence:
 Ce projet est sous licence [MIT](LICENSE)
