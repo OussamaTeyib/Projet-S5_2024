@@ -43,7 +43,7 @@ void loop() {
     pompeEtat = false;
   } 
   else {
-    // c'est temps de échange la temperature
+    // c'est le temps d'échange de la temperature
   }
 
   lcd.setCursor(0, 1);
