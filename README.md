@@ -15,4 +15,4 @@ Supervision par :
 - **Dr. Né Dah**
 
 ## Licence :
-Ce projet est distribué sous la [licence MIT](LICENSE). Vous êtes libre d'utiliser, de modifier et de partager ce contenu en créditant les auteurs.
+Ce projet est distribué sous la [Licence MIT](LICENSE). Vous êtes libre d'utiliser, de modifier et de partager ce contenu en créditant les auteurs.
