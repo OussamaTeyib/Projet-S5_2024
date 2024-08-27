@@ -12,7 +12,7 @@ float A = 0.0003950;
 float B = 0.00000263;
 float C = 0.000000001;
 
-bool pompeEtat =true;
+bool pompeEtat = true;
 int temperatureMesuree;
 
 void setup() {
@@ -31,13 +31,13 @@ void loop() {
   lcd.home();
   lcd.print("Temp: ");
   lcd.print(temperatureMesuree);
-   lcd.print("  c");
+  lcd.print("  c");
   if (temperatureMesuree < temperatureMin) {
     // Température inférieure au minimum, activation du relai et de la pompe
     digitalWrite(relaisPin, HIGH);
     pompeEtat = true;
   } 
-  else if (temperatureMesuree > temperatureMax) {
+  else if (temperatureMesuree > temperatureMax). {
     // Température supérieure au maximum, désactivation du relai et de la pompe
     digitalWrite(relaisPin, LOW);
     pompeEtat = false;
